@@ -89,4 +89,5 @@ body {
      text-align: center;
      font-style: oblique;
      opacity: 0.4;
+     transform: translateY(-3.5em);
    }
