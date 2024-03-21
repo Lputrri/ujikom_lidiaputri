@@ -1,4 +1,5 @@
-@media (orientation: landscape)
+/* @media (orientation: landscape) */
+@media (min-width: 768px) and (max-width: 1024px) 
  {
   body{
     background-image: url("./mtk.jpg")!important;
@@ -20,13 +21,22 @@ div.desktop-wrapper {
   background: #222;
   border:2px solid #000;
   padding: 10px;
+  border-radius: 10px !important;
 }
 
 div.rumusContainer {
   border-radius: 10px !important;
   height: 128px !important;
 }
-
+div.rumus {
+  overflow: hidden;
+  height: 85px !important;
+}
+div.hasil {
+  overflow: hidden;
+  min-height: 60px;
+  height: auto !important;
+}
 div.btnContainer {
   display: flex;
   flex-wrap: wrap;
