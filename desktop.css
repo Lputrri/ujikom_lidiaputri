@@ -1,5 +1,4 @@
-/* @media (orientation: landscape) */
-@media (min-width: 768px) and (max-width: 1024px) 
+ @media (orientation: landscape) 
  {
   body{
     background-image: url("./mtk.jpg")!important;
