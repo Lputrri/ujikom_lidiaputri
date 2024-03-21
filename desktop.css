@@ -28,11 +28,11 @@ div.rumusContainer {
   height: 128px !important;
 }
 div.rumus {
-  overflow: hidden;
+  overflow-y: hidden;
   height: 85px !important;
 }
 div.hasil {
-  overflow: hidden;
+  overflow-y: hidden;
   min-height: 60px;
   height: auto !important;
 }
